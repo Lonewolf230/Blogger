@@ -1,0 +1,39 @@
+#post{
+    padding: 15px;
+    border-bottom: 5px;
+}
+.post-main{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    gap: 20px;
+    
+}
+
+.post-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post-foot{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.post-foot-left{
+    display: flex;
+    gap: 10px;
+}
+
+.post-foot-right{
+    display: flex;
+    gap: 10px;
+}
+
+hr {
+    border: 1px solid #ddd; /* Light gray line */
+    margin: 10px 0;         /* Spacing above and below */
+    width: 100%;            /* Ensure it spans the container */
+}
