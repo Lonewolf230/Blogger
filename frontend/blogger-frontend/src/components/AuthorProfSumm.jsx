@@ -1,7 +1,12 @@
 import './Profile.css'
 import { FaBookOpen } from "react-icons/fa6";
+import { useState } from 'react';
 export default function AuthProfSumm(){
-
+    const [follow,setFollow]=useState(false);
+    const handleFollow=()=>{
+        setFollow(!follow);
+    }
+    
     return(
         <>
             <main>
@@ -37,7 +42,7 @@ export default function AuthProfSumm(){
                         <li>Intro to React Hooks</li>
                     </ol>
                 </section>
-                <button className='follow-button'>Follow</button>
+                <button className='follow-button' style={{"cursor":"pointer"}} onClick={handleFollow}>{follow?"Unfollow":"Follow"}</button>
             </main>
         </>
     )

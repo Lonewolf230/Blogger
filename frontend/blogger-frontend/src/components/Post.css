@@ -9,6 +9,18 @@
     
 }
 
+.post-main .post-left p {
+    display: -webkit-box;
+    line-clamp: 4;
+    -webkit-line-clamp: 4; /* Limit to 4 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5; /* Adjust line height for better readability */
+    max-height: calc(1.5em * 4); /* Adjust max height based on line height and number of lines */
+  }
+  
+
 .post-right{
     display: flex;
     flex-direction: column;

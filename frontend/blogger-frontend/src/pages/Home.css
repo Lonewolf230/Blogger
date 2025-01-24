@@ -52,3 +52,16 @@
 .main-post-scroll::-webkit-scrollbar-thumb:hover {
     background: #555; /* Darker shade when hovered */
 }
+
+.isActive{
+    text-decoration: underline;
+    color: red;
+    transform: translateY(-5px);
+    transition: transform 0.2s;
+}
+
+.isNotActive{
+    transform: translateY(0);
+    transition: transform 0.2s;
+    color: blue;
+}
