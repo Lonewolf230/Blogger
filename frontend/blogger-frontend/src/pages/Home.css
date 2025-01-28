@@ -31,9 +31,11 @@
 
 .main-post-scroll{
     overflow-y: scroll ;
-    height: 100vh;
-    scrollbar-width: thin;
+    height: 80vh;
+    scrollbar-width: none;
     scrollbar-color: #888 #f1f1f1;
+    box-shadow: 0 4px  rgba(0, 0, 0, 0.1);
+
 }
 
 .main-post-scroll::-webkit-scrollbar {

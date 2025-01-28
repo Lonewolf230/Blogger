@@ -1,0 +1,30 @@
+
+.edit-main{
+    padding: 20px;
+
+}
+
+.edit-stats{
+    display: flex;
+    gap: 20px;
+
+}
+
+.edit-stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.8;
+    transition: background-color 0.3s;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.edit-stat::after{
+    
+}
+
+.edit-stat:hover{
+    background-color: rgb(0, 0, 0,0.3);
+}

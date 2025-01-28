@@ -13,7 +13,7 @@ export default function Post(){
                     <div className='post-left'>
                         <h2>This is the heading of the first post you're seeing</h2>
                         <p>Express.js has been the backbone of Node.js web development for years,but are you truly harnessing its power blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
-                            blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+                            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah Manish dumb ass</p>
                         <div className='post-foot-left'>
                             <p><MdOutlinePublic/></p>
                             <p>Jan 23,2025</p>
