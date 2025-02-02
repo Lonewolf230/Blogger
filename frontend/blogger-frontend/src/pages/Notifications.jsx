@@ -16,6 +16,14 @@ export default function Notifications(){
                         <Notification/>
                         <Notification/>
                         <Notification/>
+                        <Notification/>
+                        <Notification/>
+                        <Notification/>
+                        <Notification/>
+                        <Notification/>
+                        <Notification/>
+                        <Notification/>
+                        <Notification/>                    
                     </div>
                     <div className='follows'>
                         <h1>Follow Activity</h1>
@@ -24,7 +32,19 @@ export default function Notifications(){
                         <FollowReq/>
                         <FollowReq/>
                         <FollowReq/>
+                        <FollowReq/>  
                         <FollowReq/>
+                        <FollowReq/>
+                        <FollowReq/>
+                        <FollowReq/>
+                        <FollowReq/>
+                        <FollowReq/>
+                        <FollowReq/>
+                        <FollowReq/>
+                        <FollowReq/>
+                        <FollowReq/>
+                        <FollowReq/>
+                        <FollowReq/>                                   
                     </div>
                 </div>
             </main>

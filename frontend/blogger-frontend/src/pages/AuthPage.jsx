@@ -22,7 +22,7 @@ export default function AuthPage(){
                             type="text" name="" id="" placeholder='Enter email'/>
                         {/* <p>{login?"(or)":""}</p> */}
                         <input type="text" placeholder='Enter username'/>
-                        <input type="text" name="" id="" placeholder='Enter password'/>
+                        <input type="password" name="" id="" placeholder='Enter password'/>
                         <button className='login pointer'>
                             <p>{login?"Sign Up":"Login"}</p>
                         </button>

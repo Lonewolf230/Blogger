@@ -9,7 +9,7 @@ export default function WritePost(){
         if(file){
             const imageurl=URL.createObjectURL(file);
             const markdownImg=`![Uploaded Image](${imageurl})`
-            setValue((prev)=>`${prev}\n${markdownImg}\n`)
+            setValue((prev)=>`${prev}<br/><br/>${markdownImg}<br/>`)
         }
     }
     const handleVideoUpload = (event) => {
@@ -22,7 +22,7 @@ export default function WritePost(){
       Your browser does not support the video tag.
     </video>
     </div>`;
-          setValue((prev) => `${prev}\n${markdownVideo}\n`);
+          setValue((prev) => `${prev}<br/>${markdownVideo}<br/>`);
         }
     };
 
@@ -30,7 +30,7 @@ export default function WritePost(){
         const videoId = prompt("Enter YouTube Video ID:");
         if (videoId) {
           const embedCode = `<div style="display: flex; justify-content: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`;
-          setValue((prev) => `${prev}\n${embedCode}\n`);
+          setValue((prev) => `${prev}<br/>${embedCode}<br/>`);
         }
       };
     return(
